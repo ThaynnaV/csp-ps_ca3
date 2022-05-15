@@ -5,57 +5,70 @@
   <meta charset="UTF-8">
   <title>CodePen - Trello Clone</title>
   <link rel="stylesheet" href="./style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/43017a642c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- partial:index.partial.html -->
   <div id="main">
-    <!--Product Backlog-->
+    <!--PRODUCT BACKLOG-->
     <div class="list">
       <div class="title removable editable">Product Backlog</div>
       <div class="content">
-        <div class="card removable editable">This is a card</div>
-        <div class="card removable editable" style="">Look, another card!</div>
-      </div>
-      <div class="add-card editable">Add another card</div>
-    </div>
-    <div class="list">
-      <!--CARD-->
-      <div class="title removable editable">Current Sprint Backlog</div>
-      <div class="content">
-        <div class="card removable editable">Hello world!</div>
-      </div>
-      <div class="add-card editable">Add another card</div>
-    </div>
-    <div class="list">
-      <!--CARD-->
-      <div class="title removable editable">In Progress</div>
-      <div class="content">
-        <div class="card removable editable">Hello world!</div>
-      </div>
-      <div class="add-card editable">Add another card</div>
-    </div>
-    <div class="list">
-      <!--CARD-->
-      <div class="title removable editable">Review</div>
-      <div class="content">
-        <div class="card removable editable">Hello world!</div>
-      </div>
-      <div class="list">
+
         <!--CARD-->
-        <div class="title removable editable">Done</div>
-        <div class="content"></div>
-        <div class="add-card editable">Add another card</div>
+        <div class="card removable editable flex-container">
+          <div class="flex-item">
+            <div class="label label-red">BACK-END</div>
+            <div class="task">Design a solution to</div>
+            <div class="bottom"></div>
+                 <div class="user">
+                  <div class="user-name">Anna Delvey</div>
+                    <i class="fa-thin fa-user-pen"></i>
+                 </div>
+            </div>
+        </div>
       </div>
     </div>
-    <!--CARD-->
-    <div class="add-list">
-      <div class="title editable">Additional Resources</div>
+
+
+    <!--CURRENT SPRINT BACKLOG-->
+    <div class="title removable editable">Current Sprint Backlog</div>
+    <div class="content">
+      <div class="card removable editable">Hello world!</div>
     </div>
-    <!-- partial -->
-    <script src='https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js'></script>
-    <script src="./script.js"></script>
+    <div class="add-card editable">Add another card</div>
+  </div>
+  <div class="list">
+
+    <!--IN PROGRESS-->
+    <div class="title removable editable">In Progress</div>
+    <div class="content">
+      <div class="card removable editable">Hello world!</div>
+    </div>
+    <div class="add-card editable">Add another card</div>
+  </div>
+  <div class="list">
+
+    <!--REVIEW-->
+    <div class="title removable editable">Review</div>
+    <div class="content">
+      <div class="card removable editable">Hello world!</div>
+    </div>
+    <div class="list">
+      <!--DONE-->
+      <div class="title removable editable">Done</div>
+      <div class="content"></div>
+      <div class="add-card editable">Marketing Research</div>
+    </div>
+  </div>
+  <!--CARD-->
+  <div class="add-list">
+    <div class="title editable">Additional Resources</div>
+  </div>
+  <!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js'></script>
+  <script src="./script.js"></script>
 
 </body>
 

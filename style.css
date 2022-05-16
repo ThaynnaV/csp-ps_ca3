@@ -95,7 +95,7 @@ div {
 
 .user{
   display: flex;
-  flex-direction: end;
+  flex-direction: row;
   justify-content: end;
 }
 

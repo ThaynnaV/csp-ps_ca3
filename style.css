@@ -104,6 +104,12 @@ div {
   align-self: end;
 }
 
+.user-icon{
+  margin-left: 5px;
+  margin-top: 4px;
+  font-size: 15px;
+}
+
 .flex-item{
   flex-grow: 1;
   max-width: 235px;

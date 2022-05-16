@@ -1,7 +1,7 @@
 body {
   font-family: 'Patrick Hand', sans-serif;
   color: #120816;
-  background-color: #9587d4;
+  background-image: linear-gradient(to right, #c6ddff, #86b5fb, #c4afff, #c4afff, #86b5fb, #c6ddff);
   display: flex;
   align-items: start;
 }
@@ -27,20 +27,21 @@ div {
   cursor: pointer !important;
   display: flex;
   justify-content: space-between;
+  background: rgb(236, 234, 255);
 }
 
 .editing {
-  background: white;
-  color: #172b4d !important;
+  background: rgb(209, 188, 248);
+  color: #a58de6 !important;
   box-shadow:inset 0px 0px 0px 2px #0279bf;
 }
 
 .editing:hover {
-  background: white !important;
+  background: rgb(208, 172, 241) !important;
 }
 
 .card {
-  background: white;
+  background: rgb(255, 255, 255);
   border-bottom: 1px solid #aaa;
 }
 
@@ -49,7 +50,7 @@ div {
   min-width: 280px;
   margin: 10px 5px;
   position: relative;
-  background: #dfe1e6;
+  background: #af9dd8;
 }
 
 

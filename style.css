@@ -85,3 +85,25 @@ div {
   font-weight: 600;
   color: gray;
 }
+
+.bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.user{
+  display: flex;
+  flex-direction: end;
+  justify-content: end;
+}
+
+.user-name{
+  align-self: end;
+}
+
+.flex-item{
+  flex-grow: 1;
+  max-width: 235px;
+}

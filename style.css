@@ -92,6 +92,7 @@ div {
   flex-direction: row;
   justify-content: space-between;
   align-items: end;
+  margin-bottom: 5px;
 }
 
 .user{
@@ -113,4 +114,5 @@ div {
 .flex-item{
   flex-grow: 1;
   max-width: 235px;
+  margin-bottom: 5px;
 }
